@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis Mencocokkan Kata dan Gambar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style_bermain 2 suku kata.css">
+</head>
+<body>
+    <nav class="navbar navbar-light">
+        <div class="container-fluid">
+            <h4>
+                <img src="picture/Logo.png" alt="" width="50" height="44" class="d-inline-block align-text-top">
+                Dunia Membaca
+            </h4>
+        </div>
+    </nav>
+    
+    <nav class="navbar-light" style="background-color: #D9D9D9; padding: 5px;">
+        <div class="container-fluid">
+            <h5 style="text-align: center;">Bermain Dua Suku Kata</h5>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="question">
+            <img id="question-image" src="picture/baju.png" alt="Baju" class="img-fluid">
+            <div class="options mt-3">
+                <div class="option" data-answer="baju">Baju</div>
+                <div class="option" data-answer="bisa">Bisa</div>
+                <div class="option" data-answer="bola">Bola</div>
+            </div>
+        </div>
+        <div id="score-container" class="mt-4">
+            <div id="score">Score: 0</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="final-score" class="hidden">
+            <p id="final-score-text" class="final-score-text">Kuis selesai! Skor akhir kamu adalah:</p>
+            <div id="score-stars" class="stars"></div>
+            <button id="restart-button" class="btn btn-success mt-3">Mulai Lagi</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid text-center">
+            <p>&copy; 2024 Dunia Membaca. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="JS_bermain 2 suku kata.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+k6JO8FwzP4DsZ77GlISpH+Z55bz5FSqEuSwT1D9BSuwjx5o/j7C1dZqxS9ZZi" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+body {
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin: 0;
+    background-color: #f4edcc;
+    background-image: url('picture/bg-bermain\ dua\ suku\ kata.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+nav{
+    background-color: #6A9C78;
+}
+
+h4 {
+    color: white;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+h5 {
+    color: #E55807;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+footer{
+    background-color: #D6DAC8;
+    color: #638889;
+    padding-top: 5px;
+    margin-top: 10%;
+}
+
+.container {
+    text-align: center;
+    flex: 1;
+}
+
+.question img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 70px;
+
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.option {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.option:hover {
+    background-color: #0056b3;
+}
+
+#score-container {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#final-score {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes pop {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+}
+
+#score.pop {
+    animation: pop 0.5s;
+}
+
+#restart-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+#restart-button:hover {
+    background-color: #218838;
+}
+
+#feedback {
+    font-size: 48px;
+    margin-top: 20px;
+    height: 60px;
+}
+
+.correct {
+    color: green;
+    animation: correctAnimation 1s;
+}
+
+@keyframes correctAnimation {
+    0% { opacity: 0; transform: scale(0.5); }
+    50% { opacity: 1; transform: scale(1.2); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+.incorrect {
+    color: red;
+    animation: incorrectAnimation 1s;
+}
+
+@keyframes incorrectAnimation {
+    0% { opacity: 0; transform: scale(0.5); }
+    50% { opacity: 1; transform: scale(1.2); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+#final-score-text {
+        font-family:'Mochiy Pop One', sans-serif; /* Ganti dengan font yang Anda inginkan */
+        font-size: 20px; /* Atur ukuran font sesuai keinginan */
+        color: #333; /* Atur warna font sesuai keinginan */
+        font-weight: bold; /* Atur ketebalan font sesuai keinginan */
+    }
+#score{
+    font-family:'Mochiy Pop One', sans-serif;
+}
+
+        
+        .stars {
+            display: flex;
+            gap: 5px;
+            justify-content: center;
+        }
+
+        .star {
+            font-size: 80px;
+            color: gold; /* Warna bintang */
+
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .pop {
+            animation: pop 0.5s;
+        }
+
+        @keyframes pop {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.5); }
+            100% { transform: scale(1); }
+        }
+
+        .correct {
+            color: green;
+        }
+
+        .incorrect {
+            color: red;
+        }

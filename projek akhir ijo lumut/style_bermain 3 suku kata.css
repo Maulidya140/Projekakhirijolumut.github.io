@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mochiy Pop P One');
+
+body {
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin: 0;
+    background-color: #f4edcc;
+    background-image: url('picture/bg-bermain\ tiga\ suku\ kata.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer{
+    background-color: #D6DAC8;
+    color: #638889;
+    padding-top: 13px;
+}
+nav{
+    background-color: #6A9C78;
+}
+
+h4 {
+    color: white;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+h5 {
+    color: #E55807;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+body > .countainer {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 50vh; */
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+    height: 550px;
+    margin: 30px auto;
+    flex: 1; /* Make the container flex */
+    
+}
+
+/* #images {
+    margin: 60px 0;
+}  komen */
+
+.image {
+    display: inline-block;
+    cursor: move;
+    user-select: none;
+    width: 70%;
+    height: 70%;
+}
+
+input {
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 5px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#score-container {
+    display: none;
+    padding-top: 30%;
+    
+}
